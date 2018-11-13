@@ -125,3 +125,9 @@ void Student::UpdateModule(std::string moduleTitle, std::string moduleCode, int 
 		}
 	}
 }
+
+
+int Student::noOfModules()
+{
+	return moduleMarks_.size();
+}

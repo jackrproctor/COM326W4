@@ -65,4 +65,5 @@ public:
 
 	std::string Student::CalculateClassification() const;
 
+	int Student::noOfModules();
 };
